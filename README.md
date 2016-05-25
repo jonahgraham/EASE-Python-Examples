@@ -2,7 +2,7 @@ EASE Python Tutorial
 =====================
 The Eclipse Advanced Scripting Environment (EASE) makes it very easy to extend and control the Eclipse IDE using the popular scripting language Python.
 
-[![Join the chat at EASE on Mattermost](https://mattermost-test.eclipse.org/eclipse/channels/ease)
+[Join the chat at EASE on Mattermost](https://mattermost-test.eclipse.org/eclipse/channels/ease)
 
 This tutorial shows you how to set-up and use Python scripting with EASE.
 
