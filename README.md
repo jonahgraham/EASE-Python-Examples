@@ -6,10 +6,12 @@ This tutorial shows you how to set-up and use Python scripting with EASE.
 
 Pre-requisites
 ---------------
-Python 2.? or 3.? installed (and able to run from your path)
-The NumPy package is required to run the NumPy part of the tutorial
+Python installed and able to run from your path. 
+Versions supported are 2.7 (or higher) or 3.4(or higher).
+The NumPy package is required to run the NumPy part of the tutorial.
 
-(We can recommend the Anaconda Python distribution (which includes NumPy) from https://www.continuum.io/downloads)
+We can recommend the Anaconda Python distribution (which includes NumPy) from:
+https://www.continuum.io/downloads.
 
 Set-up
 ---------------
