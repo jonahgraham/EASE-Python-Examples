@@ -15,28 +15,27 @@ Pre-requisites
 To install Python and NumPy we can recommend the Anaconda Python 3.5 distribution from:
 https://www.continuum.io/downloads.
 
-Set-up (All in One)
+Set-up
 ---------------
-### All in One
+We will be using a specific version of EASE for the tutorial, please install it from the links below.  
+(The EASE nightly build is awaiting some CQs to go through the approval process)
 
-Link to all-in-one installer
+### All-in-One Product
 
-Manual Set-up 
----------------
-To manually set up the workshop environment, or to modify the install to you an existing setup, please see the detailed set-up steps below. 
+This is a link to a pre-built Eclipse product that consists of Eclipse IDE for Committers, EASE with Py4J and PyDEV. 
+https://www.dropbox.com/sh/5cwzbzrsebdyd6x/AACRc-p3VpyJCqU4Yqtdp27Ca?dl=0
 
-### Install Eclipse Mars.2
+[![Install EASE](extras/installease.png)](https://www.dropbox.com/sh/5cwzbzrsebdyd6x/AACRc-p3VpyJCqU4Yqtdp27Ca?dl=0)
+
+### Manual Set-up 
+If for whatever reason, you are unable to use the all-in-one product installer, here are manual steps to obtain an equivalent set-up. 
 
 * Install [Eclipse IDE for Committers Mars.2] (https://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers-452/mars2)
-* Launch Eclipse and create a workspace
+* Download & install [EASE for EclipseCon France] (https://www.dropbox.com/sh/5cwzbzrsebdyd6x/AACRc-p3VpyJCqU4Yqtdp27Ca?dl=0)
+* Install [PyDev] (http://www.pydev.org/download.html). This step is optional, but provides a nice editor for writing Python scripts. 
 
-### Install EASE & Modules
-
-
-### Install Py4J-EASE
-
-### Install PyDev
-
-### Configuration
+Configuration
+---------------
+EASE will use Python off your System Path, please ensure a valid version of Python can be found off the System Path.
 
 
