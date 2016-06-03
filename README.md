@@ -36,6 +36,10 @@ If for whatever reason, you are unable to use the all-in-one product installer, 
 
 Configuration
 ---------------
-EASE will use Python off your System Path, please ensure a valid version of Python can be found off the System Path.
+Launch Eclipse (eclipse.exe) and switch to the Scripting perspective. If not already selected, change the script shell to 'Python Script Shell'.
+
+By default, EASE will use Python off your System Path. If you need to specify a different Python, you can change this in Preferences->Scripting->Python Scripting->Python location.
+
+
 
 
