@@ -23,9 +23,10 @@ We will be using a specific version of EASE for the tutorial, please install it 
 ### All-in-One Product
 
 This is a link to a pre-built Eclipse product that consists of Eclipse IDE for Committers, EASE with Py4J and PyDEV. 
-https://www.dropbox.com/sh/5cwzbzrsebdyd6x/AACRc-p3VpyJCqU4Yqtdp27Ca?dl=0
 
 [![Install EASE](extras/installease.png)](https://www.dropbox.com/sh/5cwzbzrsebdyd6x/AACRc-p3VpyJCqU4Yqtdp27Ca?dl=0)
+
+(For reference the product is built from https://github.com/jonahkichwacoders/org.eclipse.ease.core)
 
 ### Manual Set-up 
 If for whatever reason, you are unable to use the all-in-one product installer, here are manual steps to obtain an equivalent set-up. 
@@ -40,6 +41,6 @@ Launch Eclipse (eclipse.exe) and switch to the Scripting perspective. If not alr
 
 By default, EASE will use Python off your System Path. If you need to specify a different Python, you can change this in Preferences->Scripting->Python Scripting->Python location.
 
-
+Optionally, you can configure the PyDev interpreter to point to the same version of Python (for file editing).
 
 
