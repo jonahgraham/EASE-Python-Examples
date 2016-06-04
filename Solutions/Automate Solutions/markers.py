@@ -13,5 +13,10 @@ for ifile in findFiles("*.java"):
                 marker.setAttribute(IMarker.TRANSIENT, True)
                 marker.setAttribute(IMarker.LINE_NUMBER, line_no)
                 marker.setAttribute(IMarker.MESSAGE, "Fix in Sprint 2: " + line.strip())
+# XXX: createProblemMarker was added to Resources module after this example was written,
+# consider changing to the new method.
+#                 createProblemMarker(None, ifile, line_no,
+#                                     "Fix in Sprint 2: " + line.strip(),
+#                                     IMarker.TASK, True)
 
 showView("Tasks")
