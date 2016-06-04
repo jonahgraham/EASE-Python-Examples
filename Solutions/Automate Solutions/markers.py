@@ -1,4 +1,5 @@
 loadModule('/System/Resources')
+loadModule('/System/UI')
 
 # Access the markers class directly
 IMarker = org.eclipse.core.resources.IMarker
@@ -12,3 +13,5 @@ for ifile in findFiles("*.java"):
                 marker.setAttribute(IMarker.TRANSIENT, True)
                 marker.setAttribute(IMarker.LINE_NUMBER, line_no)
                 marker.setAttribute(IMarker.MESSAGE, "Fix in Sprint 2: " + line.strip())
+
+showView("Tasks")
