@@ -9,7 +9,7 @@ plot(java_array(t, fqn="double"), java_array(s, fqn="double"))
 
 setXLabel('time (s)')
 setYLabel('voltage (mV)')
-setPlotTitle('About as simple as it gets, folks')
+setPlotTitle('As simple as it gets')
 showGrid(True)
 exportGraph("test.png", True)
 # auto shown, so not plt.show() equivalent
