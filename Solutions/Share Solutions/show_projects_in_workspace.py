@@ -7,7 +7,9 @@
 #      -consoleLog -noSplash
 #      -application org.eclipse.ease.runScript
 #      -script <path>/show_projects_in_workspace.py
-
+#
+# Jonah's machine example:
+# /scratch/ease/ecf/eclipse/eclipse -data /scratch/ease/ecf/workspace -noSplash -application org.eclipse.ease.runScript -script /scratch/ease/ecf/git/EASE-Python-Examples/Solutions/Share\ Solutions/show_projects_in_workspace.py
 
 loadModule('/System/Resources')
 
