@@ -1,9 +1,15 @@
 loadModule('/System/Scripting')
+loadModule('/System/Platform')
 include('workspace://Utilities/java_array.py')
-Platform = org.eclipse.core.runtime.Platform
+
+# XXX: Py4J does not have direct way to get class yet,
+# see https://github.com/bartdag/py4j/issues/213
+ReflectionUtil = jvm.py4j.reflection.ReflectionUtil
+clazz = "org.eclipse.core.runtime.preferences.IPreferencesService"
+prefServiceClass = ReflectionUtil.classForName(clazz)
 
 # Make a copy of all preferences to a Java Properties
-prefService = Platform.getPreferencesService()
+prefService = getService(prefServiceClass)
 baos = java.io.ByteArrayOutputStream()
 prefService.exportPreferences(prefService.getRootNode(), baos, None)
 
