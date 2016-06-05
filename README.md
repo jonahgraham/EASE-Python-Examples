@@ -43,4 +43,8 @@ By default, EASE will use Python off your System Path. If you need to specify a 
 
 Optionally, you can configure the PyDev interpreter to point to the same version of Python (for file editing).
 
+Release Notes
+-------------
+
+ * EASE for Python has an issue with paths with spaces in Paths. Please avoid spaces if possible, if not possible, be in touch and an updated build can be provided.
 
