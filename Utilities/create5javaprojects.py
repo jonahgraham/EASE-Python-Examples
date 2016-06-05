@@ -58,6 +58,11 @@ def create_java_class(javaPackage, className):
 
 public class {className} {{
 
+    private int anUnusedInt;
+    private int anotherUnusedInt;
+    private String anUnusedString;
+    private boolean anUnusedBoolean;
+    
     public static void doesNothingUseful() throws Exception {{
         throw new Exception("Exception while doing nothing useful");
     }}

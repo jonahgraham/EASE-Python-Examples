@@ -1,3 +1,7 @@
+# name           : Replace private with public (Solution)
+# popup          : enableFor(java.lang.Object)
+# description    : Replace private keyword with public keyword for selection
+
 loadModule('/System/UI')
 
 def find_replace(find, replace):
