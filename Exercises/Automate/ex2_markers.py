@@ -15,3 +15,5 @@ IMarker = org.eclipse.core.resources.IMarker
 # 5. Create a marker(Hint method is on ifile and use type IMarker.TASK
 
 # 6. set marker attribute e.g IMarker.LINE_NUMBER and IMarker.MESSAGE
+
+# 7. optionally you can show the Tasks view (don't forget to load the UI module)
