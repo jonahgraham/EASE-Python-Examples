@@ -46,5 +46,5 @@ Optionally, you can configure the PyDev interpreter to point to the same version
 Release Notes
 -------------
 
- * EASE for Python has an issue with paths with spaces in Paths. Please avoid spaces if possible, if not possible, be in touch and an updated build can be provided.
+ * EASE for Python has an issue with paths with spaces in Paths. Please avoid spaces in installation and workspace path. If not possible, be in touch and an updated build can be provided with the bug fixed.
 
