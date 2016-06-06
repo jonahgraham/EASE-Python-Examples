@@ -43,4 +43,8 @@ By default, EASE will use Python off your System Path. If you need to specify a 
 
 Optionally, you can configure the PyDev interpreter to point to the same version of Python (for file editing).
 
+Release Notes
+-------------
+
+ * EASE for Python has an issue with paths with spaces in Paths. Please avoid spaces in installation and workspace path. *Update* A new version has been uploaded (identified with -a- in names) that contains [the fix](https://github.com/jonahkichwacoders/org.eclipse.ease.core/commit/b66da86f377af8a134bc307b9b092337d98bbc38)
 
