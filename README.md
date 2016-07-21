@@ -48,4 +48,4 @@ Release Notes
 
  * 2016-07-21: Fix bug where EASE overwrote PYTHONPATH, PYTHONPATH is now extended with path to py4j-python sources
  * 2016-07-21: Merge current upstream EASE code, updated product to be based on Neon.0
- * 2016-07-01: Current version on dropbox rebuilt with new Py4J release.
+ * 2016-07-01: Current version on dropbox rebuilt with new Py4J (release 0.10.2.1).
