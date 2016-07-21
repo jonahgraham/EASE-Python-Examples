@@ -39,6 +39,8 @@ Configuration
 ---------------
 Launch Eclipse (eclipse.exe) and switch to the Scripting perspective. If not already selected, change the script shell to 'Python Script Shell'.
 
+Switch to the Git perspective, clone this repository https://github.com/jonahkichwacoders/EASE-Python-Examples.git and import all existing projects into your workspace.
+
 By default, EASE will use Python off your System Path. If you need to specify a different Python, you can change this in Preferences->Scripting->Python Scripting->Python location.
 
 Optionally, you can configure the PyDev interpreter to point to the same version of Python (for file editing).
