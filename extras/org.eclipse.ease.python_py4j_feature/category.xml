@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.ease.python_py4j_feature_1.0.0.qualifier.jar" id="org.eclipse.ease.python_py4j_feature" version="1.0.0.qualifier">
+      <category name="ease_py4j_demo"/>
+   </feature>
+   <category-def name="ease_py4j_demo" label="Eclipse EASE for Python (using Py4J)"/>
+</site>
