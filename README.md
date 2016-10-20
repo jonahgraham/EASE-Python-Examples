@@ -31,13 +31,15 @@ This is a link to a pre-built Eclipse product that consists of Eclipse IDE for C
 ### Manual Set-up 
 If for whatever reason, you are unable to use the all-in-one product installer, here are manual steps to obtain an equivalent set-up. 
 
-* Install [Eclipse IDE for Committers Mars.2] (https://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers-452/mars2)
+* Install [Eclipse IDE for Committers Neon] (https://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers/neonr)
 * Download & install [EASE for EclipseCon France] (https://www.dropbox.com/sh/5cwzbzrsebdyd6x/AACRc-p3VpyJCqU4Yqtdp27Ca?dl=0)
 * Install [PyDev] (http://www.pydev.org/download.html). This step is optional, but provides a nice editor for writing Python scripts. 
 
 Configuration
 ---------------
 Launch Eclipse (eclipse.exe) and switch to the Scripting perspective. If not already selected, change the script shell to 'Python Script Shell'.
+
+Switch to the Git perspective, clone this repository https://github.com/jonahkichwacoders/EASE-Python-Examples.git and import all existing projects into your workspace.
 
 By default, EASE will use Python off your System Path. If you need to specify a different Python, you can change this in Preferences->Scripting->Python Scripting->Python location.
 
@@ -46,5 +48,6 @@ Optionally, you can configure the PyDev interpreter to point to the same version
 Release Notes
 -------------
 
- * EASE for Python has an issue with paths with spaces in Paths. Please avoid spaces in installation and workspace path. *Update* A new version has been uploaded (identified with -a- in names) that contains [the fix](https://github.com/jonahkichwacoders/org.eclipse.ease.core/commit/b66da86f377af8a134bc307b9b092337d98bbc38)
-
+ * 2016-07-21: Fix bug where EASE overwrote PYTHONPATH, PYTHONPATH is now extended with path to py4j-python sources
+ * 2016-07-21: Merge current upstream EASE code, updated product to be based on Neon.0
+ * 2016-07-01: Current version on dropbox rebuilt with new Py4J (release 0.10.2.1).
