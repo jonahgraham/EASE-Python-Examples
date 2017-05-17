@@ -4,7 +4,7 @@
 
 # 2. write a function toggle_in_ui()
 
-# 2.  in function, read the preference for line numbers (node="org.eclipse.ui.editors", key=""org.eclipse.ui.editors")
+# 2.  in function, read the preference for line numbers (node="org.eclipse.ui.editors", key="lineNumberRuler")
 
 # 3.  in function, write the preference such that it is the inverse of the original value
 
